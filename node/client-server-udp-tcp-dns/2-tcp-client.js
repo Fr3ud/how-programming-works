@@ -9,6 +9,6 @@ socket.on('data', data => {
 });
 
 socket.connect({
-    port: 8848,
-    host: '127.0.0.1',
+  port: 8848,
+  host: '127.0.0.1',
 }, () => socket.write('💚'));
